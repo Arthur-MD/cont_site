@@ -1,0 +1,26 @@
+<svg width="560" height="200" viewBox="0 0 560 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="560" height="200" rx="12" fill="#F4F7F6"/>
+
+  <!-- path line -->
+  <path d="M 90 100 L 470 100" stroke="#2C3E50" stroke-width="1.5" stroke-dasharray="5,5" opacity="0.3"/>
+
+  <!-- step 1 -->
+  <circle cx="90" cy="100" r="36" fill="#2C3E50"/>
+  <circle cx="90" cy="100" r="36" fill="none" stroke="#D4AF37" stroke-width="2"/>
+  <text x="90" y="108" text-anchor="middle" font-size="22" font-weight="600" fill="#D4AF37" font-family="Georgia, serif">I</text>
+
+  <!-- step 2 -->
+  <circle cx="215" cy="100" r="36" fill="#2C3E50"/>
+  <circle cx="215" cy="100" r="36" fill="none" stroke="#D4AF37" stroke-width="2"/>
+  <text x="215" y="108" text-anchor="middle" font-size="22" font-weight="600" fill="#D4AF37" font-family="Georgia, serif">II</text>
+
+  <!-- step 3 -->
+  <circle cx="345" cy="100" r="36" fill="#2C3E50"/>
+  <circle cx="345" cy="100" r="36" fill="none" stroke="#D4AF37" stroke-width="2"/>
+  <text x="345" y="108" text-anchor="middle" font-size="22" font-weight="600" fill="#D4AF37" font-family="Georgia, serif">III</text>
+
+  <!-- step 4 - goal -->
+  <circle cx="470" cy="100" r="42" fill="#5C1A1B"/>
+  <circle cx="470" cy="100" r="42" fill="none" stroke="#D4AF37" stroke-width="2.5"/>
+  <path d="M454 100 l10 10 l20 -20" stroke="#D4AF37" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

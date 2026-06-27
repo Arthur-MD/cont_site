@@ -1,0 +1,60 @@
+<svg width="560" height="420" viewBox="0 0 560 420" xmlns="http://www.w3.org/2000/svg">
+  <!-- background wall -->
+  <rect width="560" height="420" rx="12" fill="#F4F7F6"/>
+  <rect x="0" y="280" width="560" height="140" fill="#E8EDEC"/>
+
+  <!-- bookshelf (elegance) -->
+  <rect x="40" y="70" width="130" height="210" fill="#2C3E50"/>
+  <rect x="50" y="85" width="110" height="4" fill="#D4AF37" opacity="0.7"/>
+  <rect x="50" y="145" width="110" height="4" fill="#D4AF37" opacity="0.7"/>
+  <rect x="50" y="205" width="110" height="4" fill="#D4AF37" opacity="0.7"/>
+  <!-- books shelf 1 -->
+  <rect x="55" y="95" width="10" height="45" fill="#5C1A1B"/>
+  <rect x="68" y="100" width="10" height="40" fill="#D4AF37"/>
+  <rect x="81" y="92" width="10" height="48" fill="#F4F7F6"/>
+  <rect x="94" y="98" width="10" height="42" fill="#5C1A1B"/>
+  <rect x="107" y="95" width="10" height="45" fill="#2C3E50"/>
+  <rect x="120" y="100" width="10" height="40" fill="#D4AF37"/>
+  <rect x="133" y="92" width="10" height="48" fill="#F4F7F6"/>
+  <rect x="146" y="98" width="10" height="42" fill="#5C1A1B"/>
+  <!-- books shelf 2 -->
+  <rect x="55" y="155" width="10" height="45" fill="#D4AF37"/>
+  <rect x="68" y="160" width="10" height="40" fill="#F4F7F6"/>
+  <rect x="81" y="152" width="10" height="48" fill="#5C1A1B"/>
+  <rect x="94" y="158" width="10" height="42" fill="#2C3E50"/>
+  <rect x="107" y="155" width="10" height="45" fill="#D4AF37"/>
+  <rect x="120" y="160" width="10" height="40" fill="#5C1A1B"/>
+  <rect x="133" y="152" width="10" height="48" fill="#F4F7F6"/>
+  <!-- books shelf 3 -->
+  <rect x="55" y="215" width="10" height="45" fill="#F4F7F6"/>
+  <rect x="68" y="220" width="10" height="40" fill="#5C1A1B"/>
+  <rect x="81" y="212" width="10" height="48" fill="#D4AF37"/>
+  <rect x="94" y="218" width="10" height="42" fill="#2C3E50"/>
+  <rect x="107" y="215" width="10" height="45" fill="#5C1A1B"/>
+  <rect x="120" y="220" width="10" height="40" fill="#F4F7F6"/>
+
+  <!-- divã (clinical) -->
+  <rect x="200" y="240" width="240" height="60" rx="6" fill="#5C1A1B"/>
+  <rect x="200" y="240" width="240" height="20" rx="6" fill="#6B2021"/>
+  <rect x="205" y="300" width="15" height="30" fill="#2C3E50"/>
+  <rect x="420" y="300" width="15" height="30" fill="#2C3E50"/>
+  <!-- cushion -->
+  <rect x="215" y="225" width="80" height="25" rx="10" fill="#D4AF37" opacity="0.85"/>
+
+  <!-- notebook (organization) -->
+  <rect x="470" y="180" width="60" height="45" rx="3" fill="#2C3E50"/>
+  <rect x="475" y="185" width="50" height="35" rx="1" fill="#F4F7F6"/>
+  <rect x="478" y="190" width="30" height="2" fill="#2C3E50" opacity="0.6"/>
+  <rect x="478" y="196" width="40" height="2" fill="#2C3E50" opacity="0.3"/>
+  <rect x="478" y="202" width="25" height="2" fill="#2C3E50" opacity="0.3"/>
+  <rect x="478" y="208" width="35" height="2" fill="#D4AF37"/>
+
+  <!-- coffee cup -->
+  <ellipse cx="485" cy="300" rx="22" ry="6" fill="#2C3E50" opacity="0.15"/>
+  <path d="M468 275 L468 298 Q468 302 472 302 L498 302 Q502 302 502 298 L502 275 Z" fill="#F4F7F6" stroke="#2C3E50" stroke-width="1.5"/>
+  <path d="M502 280 Q512 280 512 288 Q512 296 502 296" fill="none" stroke="#2C3E50" stroke-width="1.5"/>
+  <ellipse cx="485" cy="275" rx="17" ry="3" fill="#5C1A1B"/>
+  <!-- steam -->
+  <path d="M478 268 Q476 262 478 256" stroke="#2C3E50" stroke-width="1" fill="none" opacity="0.4" stroke-linecap="round"/>
+  <path d="M488 268 Q490 262 488 256" stroke="#2C3E50" stroke-width="1" fill="none" opacity="0.4" stroke-linecap="round"/>
+</svg>

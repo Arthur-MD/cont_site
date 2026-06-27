@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contasofia — Contabilidade para Psicólogos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="container nav-inner">
+      <a href="#" class="nav-logo">Conta<span>sofia</span></a>
+      
+      <ul class="nav-links">
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#como-funciona">Como funciona</a></li>
+        <li><a href="#planos">Planos</a></li>
+        <li><a href="#faq">Dúvidas</a></li>
+      </ul>
+      
+      <div class="nav-actions">
+        <a href="https://contasofia-portal.onrender.com" class="nav-portal">Entrar</a>
+        <a href="#planos" class="btn nav-btn">Abrir CNPJ</a>
+      </div>
+
+      <button class="nav-toggle" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <div class="nav-drawer">
+      <div class="drawer-links">
+        <a href="#servicos">Serviços</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#planos">Planos</a>
+        <a href="#faq">Dúvidas</a>
+      </div>
+      <div class="drawer-actions">
+        <a href="https://contasofia-portal.onrender.com" class="drawer-portal">Entrar no Portal</a>
+        <a href="#planos" class="btn btn-primary">Abrir CNPJ</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-tagline">Contabilidade Especializada</div>
+        <h1>Sua prática clínica merece uma contabilidade <em>à altura</em>.</h1>
+        <p class="hero-desc">
+          Cuidamos da burocracia, impostos e finanças do seu consultório de psicologia, para que você possa focar no que realmente importa: seus pacientes.
+        </p>
+        <div class="hero-btns">
+          <a href="#planos" class="btn btn-primary">Ver Planos</a>
+          <button class="btn btn-secondary open-modal-geral" data-plano="0">Falar com Especialista</button>
+        </div>
+      </div>
+      <div class="hero-image flex-center">
+        <img src="images/hero.svg" alt="Ilustração artística minimalista representando a mente organizada e o crescimento financeiro" class="svg-art-hero" />
+      </div>
+    </div>
+  </section>
+
+  <section class="trust-bar">
+    <div class="container trust-bar-inner">
+      <div class="trust-item">
+        <span class="trust-num">100%</span>
+        <span class="trust-label">Focado em Psicologia</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-num">+150</span>
+        <span class="trust-label">Psicólogos Atendidos</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-num">R$ 40k+</span>
+        <span class="trust-label">Economizados em Impostos</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-num">Zero</span>
+        <span class="trust-label">Burocracia para Você</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicos" class="features">
+    <div class="container">
+      <span class="section-tag">O que fazemos</span>
+      <h2 class="section-title">Soluções completas para a sua <em>jornada clínica</em></h2>
+      <p class="section-desc">Deixe o trabalho burocrático com especialistas que entendem a realidade e as regras do CRP e da Receita Federal para psicólogos.</p>
+      
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon-wrap">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 21h19.5m-18-10.5h16.5M2.25 21.5h19.5M4.5 18v-7.5A2.25 2.25 0 016.75 8.25h10.5A2.25 2.25 0 0119.5 10.5V18M9 21v-3a1.5 1.5 0 011.5-1.5h3A1.5 1.5 0 0115 18v3M10.5 4.5h3" />
+            </svg>
+          </div>
+          <h3>Abertura de CNPJ Grátis</h3>
+          <p>Estruturamos sua clínica com a melhor natureza jurídica, garantindo o registro correto para profissionais de saúde mental sem taxas de serviço.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon-wrap">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v18m9-9H3" />
+            </svg>
+          </div>
+          <h3>Redução Legal de Impostos</h3>
+          <p>Aplicamos o Fator R de forma estratégica para que você saia dos 27,5% do carnê-leão (Pessoa Física) e pague apenas a partir de 6% no Simples Nacional.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-wrap">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+            </svg>
+          </div>
+          <h3>Emissão de Notas Fiscais</h3>
+          <p>Plataforma intuitiva para gerar notas fiscais para os seus pacientes de convênio ou reembolso de forma rápida e totalmente segura.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="como-funciona" class="how-it-works">
+    <div class="container how-inner">
+      <div class="how-image flex-center">
+        <img src="images/como-funciona.svg" alt="Ilustração de engrenagens e fluxos de processos descomplicados" class="svg-art-flow" />
+      </div>
+      <div class="how-content">
+        <span class="section-tag">Passo a Passo</span>
+        <h2 class="section-title">Migrar ou abrir a sua empresa é <em>muito simples</em></h2>
+        <p class="section-desc">Desenhamos um fluxo sem fricção para você não perder tempo com contabilidade tradicional ou papéis acumulados.</p>
+        
+        <div class="steps-list">
+          <div class="step-item">
+            <div class="step-num">1</div>
+            <div class="step-content">
+              <h3>Escolha do seu plano</h3>
+              <p>Selecione a estrutura ideal com base no seu momento atual de faturamento ou tamanho da clínica.</p>
+            </div>
+          </div>
+          <div class="step-item">
+            <div class="step-num">2</div>
+            <div class="step-content">
+              <h3>Coleta de dados rápida</h3>
+              <p>Envia seus documentos de identificação e CRP de forma digital pelo nosso formulário criptografado.</p>
+            </div>
+          </div>
+          <div class="step-item">
+            <div class="step-num">3</div>
+            <div class="step-content">
+              <h3>Burocracia resolvida</h3>
+              <p>Nossa equipe cuida de toda a transição, prefeituras e órgãos públicos. Em poucos dias seu CNPJ está operando redondo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="planos" class="pricing">
+    <div class="container">
+      <span class="section-tag">Preços transparentes</span>
+      <h2 class="section-title">O investimento ideal para cada <em>fase da sua clínica</em></h2>
+      <p class="section-desc">Sem pegadinhas ou taxas surpresas de fim de ano. Valores justos para manter a sua regularidade fiscal sempre protegida.</p>
+      
+      <div class="pricing-grid">
+        <div class="plan-card">
+          <h3>Autônomo</h3>
+          <p class="plan-desc">Para psicólogos que atuam como PF e precisam do Carnê-Leão e Livro Caixa em dia.</p>
+          <div class="plan-price">
+            <span class="currency">R$</span>
+            <span class="amount">129</span>
+            <span class="period">/mês</span>
+          </div>
+          <ul class="plan-items">
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>
+              Cálculo do Carnê-Leão Mensal
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>
+              Escrituração do Livro Caixa
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>
+              Suporte por WhatsApp dedicado
+            </li>
+          </ul>
+          <button class="btn btn-outline plan-btn open-modal-geral" data-plano="1">Contratar Autônomo</button>
+        </div>
+
+        <div class="plan-card featured">
+          <div class="badge-featured">Mais Escolhido</div>
+          <h3>Clínica Individual</h3>
+          <p class="plan-desc">O melhor custo-benefício. Ideal para quem quer abrir CNPJ e pagar o menor imposto (6%).</p>
+          <div class="plan-price">
+            <span class="currency">R$</span>
+            <span class="amount">199</span>
+            <span class="period">/mês</span>
+          </div>
+          <ul class="plan-items">
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>
+              Abertura de CNPJ inclusa
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>
+              Planejamento e aplicação Fator R (6%)
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>
+              Pró-labore e guias de INSS/FGTS
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>
+              Plataforma para Emissão de NF-e
+            </li>
+          </ul>
+          <button class="btn btn-primary plan-btn open-modal-geral" data-plano="2">Começar Agora</button>
+        </div>
+
+        <div class="plan-card">
+          <h3>Clínica de Sócios</h3>
+          <p class="plan-desc">Para clínicas com dois ou mais profissionais ou espaços de atendimento compartilhados.</p>
+          <div class="plan-price">
+            <span class="currency">R$</span>
+            <span class="amount">299</span>
+            <span class="period">/mês</span>
+          </div>
+          <ul class="plan-items">
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>
+              Contabilidade completa de Sociedade
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>
+              Divisão lucros isentos de sócios
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>
+              Gestão de múltiplos Pró-Labores
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>
+              Relatórios contábeis trimestrais
+            </li>
+          </ul>
+          <button class="btn btn-outline plan-btn open-modal-geral" data-plano="3">Contratar Sociedade</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="faq">
+    <div class="container">
+      <div style="text-align: center; margin-bottom: 50px;">
+        <span class="section-tag">Perguntas Frequentes</span>
+        <h2 class="section-title">Tire suas <em>principais dúvidas</em></h2>
+      </div>
+      
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-trigger">
+            <h3>Psicólogo pode ser MEI?</h3>
+            <svg class="faq-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/></svg>
+          </button>
+          <div class="faq-panel">
+            <p>Não, a profissão de psicólogo é regulamentada e considerada uma atividade intelectual, o que é vedado pelo regulamento do MEI. O caminho ideal e mais econômico é abrir uma Microempresa (ME) no modelo de SLU (Sociedade Limitada Unipessoal) enquadrada no Simples Nacional.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-trigger">
+            <h3>O que é o Fator R e como ele reduz meu imposto para 6%?</h3>
+            <svg class="faq-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/></svg>
+          </button>
+          <div class="faq-panel">
+            <p>O Fator R é uma regra do Simples Nacional. Se a sua folha de pagamento (incluindo o seu Pró-labore) representar 28% ou mais do faturamento da sua clínica, sua empresa pode sair do Anexo V (imposto iniciando em 15,5%) e passar para o Anexo III (imposto iniciando em apenas 6%). Nós cuidamos de todo esse cálculo mensal para garantir o menor imposto legal.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-trigger">
+            <h3>Preciso ter uma sede física para abrir o CNPJ da minha clínica?</h3>
+            <svg class="faq-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/></svg>
+          </button>
+          <div class="faq-panel">
+            <p>Não há necessidade. Se você atende online ou subloca consultórios por hora, nós podemos utilizar um endereço fiscal (Sede Virtual). Isso reduz seus custos fixos e agiliza a liberação do seu CNPJ na prefeitura.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-final">
+    <div class="container">
+      <h2 class="section-title">Pronto para dar o próximo passo na sua <em>carreira clínica</em>?</h2>
+      <p>Esqueça os sustos com o Leão. Tenha uma equipe de especialistas gerindo as suas finanças de forma transparente.</p>
+      <button class="btn btn-primary open-modal-geral" data-plano="0">Quero uma Consultoria Grátis</button>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="logo">Conta<span>sofia</span></span>
+          <p>Contabilidade digital humanizada e sob medida para profissionais de psicologia, clínicas e terapeutas.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#como-funciona">Como funciona</a></li>
+            <li><a href="#planos">Planos</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contato</h4>
+          <ul>
+            <li>contato@contasofia.com.br</li>
+            <li>WhatsApp: (11) 99999-9999</li>
+            <li>Atendimento em todo o Brasil</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-meta">
+        <p>&copy; 2026 Contasofia Contabilidade LTDA. Todos os direitos reservados.</p>
+        <p>Feito com ética e precisão.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal-overlay" id="modalLead">
+    <div class="modal-box">
+      <button class="modal-close" id="fecharModal" aria-label="Fechar Janela">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
+      </button>
+      
+      <div class="modal-body">
+        <div id="formContainer">
+          <div class="modal-head">
+            <h3 class="modal-title">Solicitar Proposta</h3>
+            <p class="modal-sub">Preencha os campos rápidos para alinhar com um de nossos contadores especialistas.</p>
+          </div>
+
+          <div class="modal-erro" id="erroForm" hidden></div>
+
+          <form id="leadForm" novalidate>
+            <div class="hp-field">
+              <label for="website">Deixe em branco se for humano:</label>
+              <input type="text" id="website" name="website" autocomplete="off" />
+            </div>
+
+            <div class="form-grid">
+              <div class="field">
+                <label for="nome">Seu nome completo *</label>
+                <input type="text" id="nome" name="nome" required placeholder="Ex: Dra. Ana Silva" />
+              </div>
+
+              <div class="form-row-2">
+                <div class="field">
+                  <label for="email">E-mail corporativo *</label>
+                  <input type="email" id="email" name="email" required placeholder="ana@exemplo.com" />
+                </div>
+                <div class="field">
+                  <label for="telefone">WhatsApp *</label>
+                  <input type="tel" id="telefone" name="telefone" required placeholder="(11) 99999-9999" inputmode="numeric" maxlength="15" />
+                </div>
+              </div>
+
+              <div class="form-row-2">
+                <div class="field">
+                  <label for="plano_interesse">Plano de Interesse *</label>
+                  <select id="plano_interesse" name="plano_interesse" required>
+                    <option value="" disabled selected>Selecione uma opção</option>
+                    <option value="clinica">Clínica Individual (CNPJ)</option>
+                    <option value="essencial">Profissional Autônomo (PF)</option>
+                    <option value="instituto">Clínica de Sócios</option>
+                    <option value="indefinido">Apenas tirar dúvidas gerais</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="ja_tem_cnpj">Já possui empresa aberta? *</label>
+                  <select id="ja_tem_cnpj" name="ja_tem_cnpj" required>
+                    <option value="" disabled selected>Selecione</option>
+                    <option value="false">Não, quero abrir CNPJ</option>
+                    <option value="true">Sim, já tenho CNPJ operando</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="mensagem">Detalhes adicionais (opcional)</label>
+                <textarea id="mensagem" name="mensagem" rows="3" placeholder="Conte brevemente sobre o seu faturamento médio atual ou dúvidas específicas..."></textarea>
+              </div>
+
+              <div class="field-check">
+                <input type="checkbox" id="aceite_lgpd" name="aceite_lgpd" required checked />
+                <label for="aceite_lgpd">Aceito receber contatos da Contasofia para fins de simulação fiscal e concordo com os <a href="#">Termos de Privacidade</a>.</label>
+              </div>
+
+              <button type="submit" class="btn btn-primary modal-btn-submit" id="btnSubmitLead">Enviar solicitação</button>
+            </div>
+          </form>
+        </div>
+
+        <div id="successContainer" class="success-state" hidden>
+          <div class="success-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>
+          </div>
+          <h3>Dados enviados com sucesso!</h3>
+          <p>Nossos contadores já receberam sua solicitação. Se quiser agilizar o atendimento imediato, clique no botão do WhatsApp abaixo:</p>
+          <a href="#" target="_blank" class="btn btn-primary" id="btnWhatsAppDirect" style="background-color: #25D366; color: white; border: none;">
+            Falar pelo WhatsApp Agora
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // URL da API Backend
+    const API_URL = "https://contabil-api-15jd.onrender.com";
+
+    // Controle de Opacidade do Nav no Scroll
+    window.addEventListener('scroll', () => {
+      const nav = document.querySelector('nav');
+      if (window.scrollY > 40) {
+        nav.classList.add('scrolled');
+      } else {
+        nav.classList.remove('scrolled');
+      }
+    });
+
+    // Controle do Menu Hambúrguer Mobile (Drawer Lateral)
+    const toggleBtn = document.querySelector('.nav-toggle');
+    const navDrawer = document.querySelector('.nav-drawer');
+    
+    toggleBtn.addEventListener('click', () => {
+      toggleBtn.classList.toggle('active');
+      navDrawer.classList.toggle('active');
+    });
+
+    // Fecha o drawer automaticamente se o usuário clicar em qualquer link interno
+    document.querySelectorAll('.nav-drawer a').forEach(link => {
+      link.addEventListener('click', () => {
+        toggleBtn.classList.remove('active');
+        navDrawer.classList.remove('active');
+      });
+    });
+
+    // Comportamento do Accordion do FAQ
+    document.querySelectorAll('.faq-trigger').forEach(trigger => {
+      trigger.addEventListener('click', () => {
+        const item = trigger.parentElement;
+        const isActive = item.classList.contains('active');
+        
+        // Fecha todos antes de abrir o atual
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+        
+        if (!isActive) {
+          item.classList.add('active');
+        }
+      });
+    });
+
+    // Gerenciamento e Controle do Modal de Leads
+    const modal = document.getElementById('modalLead');
+    const fecharBtn = document.getElementById('fecharModal');
+    const formWrap = document.getElementById('formContainer');
+    const sucesso = document.getElementById('successContainer');
+    const form = document.getElementById('leadForm');
+    const erroBox = document.getElementById('erroForm');
+    const submitBtn = document.getElementById('btnSubmitLead');
+    const campoPlano = document.getElementById('plano_interesse');
+    const btnWhats = document.getElementById('btnWhatsAppDirect');
+
+    // ── Máscara e validação de telefone brasileiro ──
+    const DDDS = new Set([11,12,13,14,15,16,17,18,19,21,22,24,27,28,31,32,33,34,35,37,38,41,42,43,44,45,46,47,48,49,51,53,54,55,61,62,63,64,65,66,67,68,69,71,73,74,75,77,79,81,82,83,84,85,86,87,88,89,91,92,93,94,95,96,97,98,99]);
+    function soDigitos(v){ return (v||'').replace(/\D/g,''); }
+    function mascararTelefone(v){
+      const n = soDigitos(v).slice(0,11);
+      if (n.length <= 10) return n.replace(/(\d{2})(\d)/,'($1) $2').replace(/(\d{4})(\d{1,4})$/,'$1-$2');
+      return n.replace(/(\d{2})(\d)/,'($1) $2').replace(/(\d{5})(\d{1,4})$/,'$1-$2');
+    }
+    function telefoneValido(v){
+      let n = soDigitos(v);
+      if ((n.length===12||n.length===13) && n.startsWith('55')) n = n.slice(2);
+      if (n.length!==10 && n.length!==11) return false;
+      if (!DDDS.has(+n.slice(0,2))) return false;
+      if (n.length===11 && n[2]!=='9') return false;
+      return true;
+    }
+    function emailValido(v){ return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test((v||'').trim()); }
+
+    const campoTel = document.getElementById('telefone');
+    campoTel.addEventListener('input', () => { campoTel.value = mascararTelefone(campoTel.value); });
+
+    function abrirModal(planoIndex) {
+      erroBox.hidden = true;
+      form.reset();
+      formWrap.hidden = false;
+      sucesso.hidden = true;
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Enviar solicitação';
+
+      // Seta o campo select do plano dependendo de onde o usuário clicou
+      if (planoIndex === "1") campoPlano.value = "essencial";
+      else if (planoIndex === "2") campoPlano.value = "clinica";
+      else if (planoIndex === "3") campoPlano.value = "instituto";
+      else campoPlano.value = "indefinido";
+
+      modal.classList.add('active');
+    }
+
+    document.querySelectorAll('.open-modal-geral').forEach(btn => {
+      btn.addEventListener('click', () => {
+        abrirModal(btn.getAttribute('data-plano'));
+      });
+    });
+
+    fecharBtn.addEventListener('click', () => modal.classList.remove('active'));
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) modal.classList.remove('active');
+    });
+
+    // Função auxiliar para estruturar mensagem premium no WhatsApp
+    function montarLinkWhatsApp(nome, plano) {
+      const base = "https://api.whatsapp.com/send";
+      const tel = "5511999999999"; // Substitua pelo seu telefone de atendimento real
+      const txt = `Olá! Meu nome é ${nome}. Acabei de solicitar um contato pelo site e gostaria de tirar algumas dúvidas sobre o plano: *${plano}*.`;
+      return `${base}?phone=${tel}&text=${encodeURIComponent(txt)}`;
+    }
+
+    // Submissão Assíncrona do Formulário de Lead (Fetch API)
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      erroBox.hidden = true;
+
+      // Validação rápida nativa do browser antes de enviar
+      if (!form.checkValidity()) {
+        erroBox.textContent = "Por favor, preencha todos os campos obrigatórios marcados com asterisco (*).";
+        erroBox.hidden = false;
+        return;
+      }
+
+      // Validações de formato (espelham o backend)
+      const emailInput = document.getElementById('email');
+      if (!emailValido(emailInput.value)) {
+        erroBox.textContent = "Informe um e-mail válido.";
+        erroBox.hidden = false;
+        return;
+      }
+      if (!telefoneValido(campoTel.value)) {
+        erroBox.textContent = "Informe um WhatsApp válido com DDD (ex.: (11) 99999-9999).";
+        erroBox.hidden = false;
+        return;
+      }
+
+      const fd = new FormData(form);
+      
+      // Validação do campo de honeypot (proteção robô)
+      if (fd.get('website')) {
+        console.warn("Spam detectado pelo Honeypot.");
+        formWrap.hidden = true;
+        sucesso.hidden = false; // Simula sucesso para o bot de forma silenciosa
+        return;
+      }
+
+      const payload = {
+        nome: fd.get('nome').trim(),
+        email: fd.get('email').trim(),
+        telefone: fd.get('telefone').trim(),
+        plano_interesse: fd.get('plano_interesse'),
+        ja_tem_cnpj: fd.get('ja_tem_cnpj') === 'true',
+        mensagem: (fd.get('mensagem') || '').trim(),
+        aceite_lgpd: fd.get('aceite_lgpd') === 'on',
+        website: fd.get('website') || '',
+      };
+
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Enviando...';
+
+      try {
+        const res = await fetch(`${API_URL}/api/leads/`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+        });
+
+        if (res.status === 429) {
+          throw new Error('Muitas tentativas. Por favor, aguarde e tente novamente mais tarde.');
+        }
+        if (!res.ok) {
+          let detalhe = '';
+          try {
+            const data = await res.json();
+            detalhe = Object.values(data).flat().join(' ');
+          } catch (_) {}
+          throw new Error(detalhe || 'Não foi possível processar agora. Tente de novo em alguns minutos ou contacte-nos pelo WhatsApp.');
+        }
+
+        // Fluxo de Sucesso → Atualiza link do WhatsApp e renderiza estado de sucesso
+        const planoNome = campoPlano.options[campoPlano.selectedIndex].text;
+        btnWhats.href = montarLinkWhatsApp(payload.nome, planoNome);
+        formWrap.hidden = true;
+        sucesso.hidden = false;
+      } catch (err) {
+        erroBox.textContent = err.message;
+        erroBox.hidden = false;
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Enviar solicitação';
+      }
+    });
+  </script>
+</body>
+</html>
