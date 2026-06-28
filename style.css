@@ -191,11 +191,24 @@ nav.scrolled {
   justify-content: space-between;
 }
 .nav-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   font-family: var(--font-serif);
-  font-size: 24px;
+  font-size: 23px;
   font-weight: 600;
   color: var(--petroleo);
   letter-spacing: -0.02em;
+}
+.logo-mark {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+}
+.logo-text span {
+  color: var(--ouro-dark);
+  font-weight: 400;
+  margin-left: 0.22em;
 }
 .nav-logo span {
   color: var(--ouro-dark);
@@ -674,12 +687,19 @@ footer {
   margin-bottom: 48px;
 }
 .footer-brand .logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   font-family: var(--font-serif);
-  font-size: 22px;
+  font-size: 21px;
   color: #fff;
   margin-bottom: 12px;
-  display: block;
 }
+.footer-brand .logo .logo-mark-dark {
+  width: 28px;
+  height: 28px;
+}
+.footer-brand .logo .logo-text span { color: var(--ouro); }
 .footer-brand .logo span { color: var(--ouro); }
 .footer-brand p { line-height: 1.6; }
 .footer-col h4 {
