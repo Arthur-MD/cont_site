@@ -930,3 +930,54 @@ footer {
   .trust-bar-inner { grid-template-columns: 1fr; } /* Uma coluna se a tela for muito pequena */
   .section-title { font-size: 28px; }
 }
+
+/* ── Refinos: linha de confiança no hero ── */
+.hero-trust {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 24px;
+  margin-top: 26px;
+}
+.hero-trust span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13.5px;
+  color: #B9C7D2;
+}
+.hero-trust svg {
+  width: 16px;
+  height: 16px;
+  stroke: var(--ouro-light);
+  flex-shrink: 0;
+}
+
+/* ── Reforço de confiança no formulário ── */
+.modal-reassure {
+  font-size: 12.5px;
+  color: var(--text-muted);
+  text-align: center;
+  margin: 10px 0 0;
+}
+
+/* ── Botão flutuante de WhatsApp ── */
+.wa-float {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 950;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #25D366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 24px rgba(37, 211, 102, 0.4);
+  transition: transform 0.2s var(--transition-smooth);
+}
+.wa-float:hover { transform: translateY(-2px) scale(1.04); }
+.wa-float svg { width: 28px; height: 28px; }
+@media (max-width: 768px) {
+  .wa-float { width: 52px; height: 52px; bottom: 18px; right: 18px; }
+}
