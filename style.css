@@ -193,16 +193,16 @@ nav.scrolled {
 .nav-logo {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 11px;
   font-family: var(--font-serif);
-  font-size: 23px;
+  font-size: 26px;
   font-weight: 600;
   color: var(--petroleo);
   letter-spacing: -0.02em;
 }
 .logo-mark {
-  width: 30px;
-  height: 30px;
+  width: 34px;
+  height: 34px;
   flex-shrink: 0;
 }
 .logo-text span {
@@ -665,6 +665,7 @@ nav.scrolled {
   text-align: center;
 }
 .cta-final .section-title { color: #fff; }
+.cta-final .section-title em { color: var(--ouro-light); }
 .cta-final p {
   font-size: 17px;
   color: var(--text-on-dark-muted);
