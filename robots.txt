@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://psicologopj.com.br/sitemap.xml
